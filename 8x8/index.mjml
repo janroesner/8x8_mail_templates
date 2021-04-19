@@ -20,18 +20,20 @@
     <mj-section padding-bottom="0px" background-color="#29343d">
       <mj-column width="100%">
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
-        <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="0px" border-color="#29343d"></mj-divider>
+        <mj-divider padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="0px" border-color="#29343d"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>
+    <mj-section padding-top="0px" padding-bottom="20px" />
     <!-- Start - Section - Don't Miss -->
     <mj-section padding-top="0" background-color="#29343d">
       <mj-column width="100%">
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="400px"></mj-image>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+
+      <mj-column width="95%">
+        <mj-divider padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px"></mj-divider>
+      </mj-column>
+      
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
@@ -40,8 +42,9 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-divider padding-top="30px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#29343d"></mj-divider>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
+      
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
       </mj-column>
@@ -53,15 +56,15 @@
       </mj-column>
     </mj-section>
     <!-- End - Section - Don't Miss -->
-    <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>
+    <mj-section padding-top="0px" padding-bottom="20px" />
     <!-- Start - Section - Learn -->
     <mj-section padding-top="0" background-color="#29343d">
       <mj-column width="100%">
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_learn.png" width="400px"></mj-image>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+      <mj-column width="95%">
+        <mj-divider padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px"></mj-divider>
+      </mj-column>
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
@@ -70,8 +73,9 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-divider padding-top="30px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#29343d"></mj-divider>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
+
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
       </mj-column>
@@ -83,15 +87,15 @@
       </mj-column>
     </mj-section>
     <!-- End - Section - Learn -->
-    <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>
+    <mj-section padding-top="0px" padding-bottom="20px" />
     <!-- Start - Section - Fun -->
     <mj-section padding-top="0" background-color="#29343d">
       <mj-column width="100%">
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_fun.png" width="400px"></mj-image>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+      <mj-column width="95%">
+        <mj-divider padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px"></mj-divider>
+      </mj-column>
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
@@ -100,8 +104,8 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-divider padding-top="30px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#29343d"></mj-divider>
       </mj-column>
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
       <mj-column width="100%">
         <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
       </mj-column>
@@ -113,9 +117,10 @@
       </mj-column>
     </mj-section>
     <!-- End - Section - Fun -->
+    <mj-section padding-top="0px" padding-bottom="20px" />
     <mj-section background-color="#29343d">
       <mj-column>
-        <mj-text align="center" font-weight="600" color="#fcfcfc">©2021 - 8x8.is Team</mj-text>
+        <mj-text css-class="link" align="center" font-weight="600" color="#fcfcfc">©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
         <mj-text align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
         <mj-social mode="horizontal">
           <mj-social-element name="twitter" target="https://twitter.com/8x8Is"></mj-social-element>
