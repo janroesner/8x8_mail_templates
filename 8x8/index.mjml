@@ -1,0 +1,85 @@
+<mjml>
+  <mj-body background-color="#394956">
+    <mj-section padding-bottom="0px" background-color="#23343d">
+      <mj-column width="100%">
+        <mj-image src="//img/8x8_logo.png" width="100px"></mj-image>
+        <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="0px" border-color="#23343d"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0px" background-color="#394956">
+    </mj-section>
+
+    <mj-section background-color="23343d">
+      <mj-column width="100px">
+        <mj-image src="//img/dont_miss.png" width="120px" align="left"></mj-image>
+      </mj-column>
+      <mj-column width="500px">
+        <mj-text align="left" font-weight="800" font-size="40px" color="#F94144">DON'T MISS</mj-text>
+        <mj-text align="left" font-weight="200" font-size="16px" color="#fcfcfc" padding-top="7">What happened this week in 8-bit land?</mj-text>
+      </mj-column>
+      <mj-column width="580px">
+        <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="2px" border-color="#394956"></mj-divider>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding-top="0" background-color="#29343D">
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="200" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding-top="0" background-color="#29343D">
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="600" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding-bottom="0px" background-color="#394956">
+    </mj-section>
+
+    <mj-section background-color="23343d">
+      <mj-column width="120px">
+        <mj-image src="//img/8x8_logo.png" width="120px"></mj-image>
+      </mj-column>
+      <mj-column width="480px">
+        <mj-text align="left" font-weight="800" font-size="20px" color="#fcfcfc">#level up</mj-text>
+        <mj-text align="left" color="#fcfcfc">New skills to have under your belt</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0px" background-color="#577590">
+      <mj-column>
+        <mj-text align="center" color="#fcfcfc" font-size="20px" color="rgb(165, 176, 184)">Explore our new features</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding-top="0" background-color="#577590">
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#f3f3f3">
+      <mj-column>
+        <mj-text align="center">Stay in touch!</mj-text>
+        <mj-social mode="horizontal">
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="facebook"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
