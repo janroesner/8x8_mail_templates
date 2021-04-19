@@ -9,41 +9,124 @@
 
     <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>   
     
+    <!-- Start - Section - Don't Miss -->
+    
     <mj-section padding-top="0" background-color="#29343d">
       <mj-column width="100%">
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="400px"></mj-image>
       </mj-column>
       
-      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
 
       <mj-column width="100%">
-        <mj-text align="left" font-weight="200" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
       <mj-column width="100%">
         <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
       </mj-column>
       <mj-column width="100%">
-        <mj-text font-size="16" font-weight="200" align="left" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
       </mj-column>
 
       <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
       
       <mj-column width="100%">
-        <mj-text align="left" font-weight="600" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
       </mj-column>
       <mj-column width="100%">
         <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
       </mj-column>
       <mj-column width="100%">
-        <mj-text font-size="16" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text font-size="16px" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#f3f3f3">
+    <!-- End - Section - Don't Miss -->
+    
+    <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>
+    
+    <!-- Start - Section - Learn -->
+    
+    <mj-section padding-top="0" background-color="#29343d">
+      <mj-column width="100%">
+        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_learn.png" width="400px"></mj-image>
+      </mj-column>
+      
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
+      
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16px" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- End - Section - Learn -->
+    
+    <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="20px" border-color="#394956"></mj-divider>
+    
+    <!-- Start - Section - Fun -->
+    
+    <mj-section padding-top="0" background-color="#29343d">
+      <mj-column width="100%">
+        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_fun.png" width="400px"></mj-image>
+      </mj-column>
+      
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#394956"></mj-divider>
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="10px" border-color="#29343d"></mj-divider>
+
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+
+      <mj-divider horizontal-spacing="0" vertical-spacing="0" padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="40px" border-color="#29343d"></mj-divider>
+      
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px" color="rgb(165, 176, 184)">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="16px" font-weight="200" align="left" color="#fcfcfc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- End - Section - Fun -->
+    
+    <mj-section background-color="#29343d">
       <mj-column>
-        <mj-text align="center">Stay in touch!</mj-text>
+        <mj-text align="center" font-weight="600" color="#fcfcfc">©2021 - 8x8.is Team</mj-text>
+        <mj-text align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
         <mj-social mode="horizontal">
-          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="twitter" target="https://twitter.com/8x8Is"></mj-social-element>
           <mj-social-element name="facebook"></mj-social-element>
         </mj-social>
       </mj-column>
