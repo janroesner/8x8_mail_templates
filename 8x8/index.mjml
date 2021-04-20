@@ -19,7 +19,9 @@
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
       <mj-class name="article-header" css-class="text" align="left" padding-top="30px" />
       <mj-class name="article-text" css-class="text" font-family="Inter" font-weight="200" line-height="17px" font-size="15px" color="#FCFCFC" />
-      <mj-class name="social-icon" padding="10px" icon-size="30px" />
+      <mj-class name="social-share" padding="0px" align="left" padding-left="20px" />
+      <mj-class name="social-share-icon" padding="5px" icon-size="25px" />
+      <mj-class name="social-link" padding="5px" icon-size="35px" />
       <mj-class name="text-small" font-size="10px" />
       <mj-class name="image-annotation" css-class="image-annotation" font-size="12px" padding-left="25px" align="left" padding="0px" padding-bottom="20px" color="#999999" />
       <mj-class name="mj-image" padding="10px" padding-bottom="0px" />
@@ -66,7 +68,7 @@
         <mj-text mj-class="image-annotation">Source: <a href="https://www.google.com">http://www.google.com</a></mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-text mj-class="article-text"><h2>Ich bin eine H1 Überschrift</h2>16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.<h3>Ich bin eine H2 Überschrift</h3> Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen.</mj-text>
+        <mj-text mj-class="article-text"><h2>Ich bin eine H2 Überschrift</h2>16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.<h3>Ich bin eine H3 Überschrift</h3> Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen.</mj-text>
         <mj-text mj-class="article-text">
           <ul>
             <li>Foo</li>
@@ -74,6 +76,14 @@
             <li>Baz</li>
           </ul>
         </mj-text>
+        <mj-social mj-class="social-share">
+          <mj-social-element mj-class="social-share-icon" name="twitter" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="facebook" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="tumblr" href="https://8bitnews.io/0x/4711" />
+        </mj-social>
+      </mj-column>
+      <mj-column width="95%">
+        <mj-divider mj-class="ruler" />
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-header"><h1>#2 - Retro Recipe's Chicken Lips Computer</h1></mj-text>
@@ -83,6 +93,11 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-social mj-class="social-share">
+          <mj-social-element mj-class="social-share-icon" name="twitter" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="facebook" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="tumblr" href="https://8bitnews.io/0x/4711" />
+        </mj-social>
       </mj-column>
     </mj-section>
     <!-- End - Section - Don't Miss -->
@@ -95,10 +110,9 @@
     <mj-section mj-class="section-box">
       <mj-column width="100%">
         <mj-social container-background-color="#577590" padding="0px">
-          <mj-social-element mj-class="social-icon" name="twitter" href="https://twitter.com/8x8Is" />
-          <mj-social-element mj-class="social-icon" name="facebook" href="https://www.facebook.com/8x8.is" />
-          <mj-social-element mj-class="social-icon" name="tumblr" href="https://8x8is.tumblr.com/" />
-          <mj-social-element mj-class="social-icon" name="instagram" href="https://www.instagram.com/8x8Is/" />
+          <mj-social-element mj-class="social-link" name="twitter-noshare" href="https://twitter.com/8x8Is" />
+          <mj-social-element mj-class="social-link" name="facebook-noshare" href="https://www.facebook.com/8x8.is" />
+          <mj-social-element mj-class="social-link" name="tumblr-noshare" href="https://8x8is.tumblr.com/" />
         </mj-social>
       </mj-column>
     </mj-section>
