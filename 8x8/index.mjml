@@ -1,7 +1,8 @@
 <mjml>
   <mj-head>
-    <mj-style> .link a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" />
+    <mj-style> .link a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
+    <mj-style> .article-header { color: #F9C74F; text-decoration: underline; } </mj-style>
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
@@ -9,8 +10,9 @@
       <mj-class name="section-box" padding-top="0px" padding-bottom="0px" background-color="#29343d" />
       <mj-class name="section-top-ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
-      <mj-class name="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px" padding-top="30px" />
+      <mj-class name="article-header" css-class="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px" padding-top="30px" />
       <mj-class name="article-text" font-family="Inter" font-weight="200" line-height="18px" font-size="16px" color="#FCFCFC" />
+      <mj-class name="social-icon" padding="10px" icon-size="30px" />
     </mj-attributes>
   </mj-head>
   <mj-body mj-class="body">
@@ -69,19 +71,25 @@
     <mj-section mj-class="section-divider" />
     <!-- Start - Section - Learn -->
     <!-- End - Section - Learn -->
-
     <!-- Start - Section - Fun -->
     <!-- End - Section - Fun -->
-
-    <mj-section  mj-class="section-box">
-      <mj-column>
-        <mj-text css-class="link" align="center" font-weight="600" color="#fcfcfc">©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
-        <mj-text align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
-        <mj-social mode="horizontal">
-          <mj-social-element name="twitter" target="https://twitter.com/8x8Is"></mj-social-element>
-          <mj-social-element name="facebook"></mj-social-element>
+    <!-- Start - Footer -->
+    <mj-section mj-class="section-box">
+      <mj-column width="100%">
+        <mj-social container-background-color="#577590" padding="0px">
+          <mj-social-element mj-class="social-icon" name="twitter" href="https://twitter.com/8x8Is" />
+          <mj-social-element mj-class="social-icon" name="facebook" href="https://www.facebook.com/8x8.is" />
+          <mj-social-element mj-class="social-icon" name="tumblr" href="https://8x8is.tumblr.com/" />
+          <mj-social-element mj-class="social-icon" name="instagram" href="https://www.instagram.com/8x8Is/" />
         </mj-social>
       </mj-column>
     </mj-section>
+    <mj-section mj-class="section-box">
+      <mj-column width="100%">
+        <mj-text css-class="link" align="center" font-weight="600" color="#fcfcfc">©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
+        <mj-text align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End - Footer -->
   </mj-body>
 </mjml>
