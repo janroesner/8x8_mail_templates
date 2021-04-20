@@ -5,6 +5,8 @@
     <mj-style> .text a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
     <mj-style> .text b { font-weight:400; } </mj-style>
     <mj-style> .text li { margin-left: -20px; } </mj-style>
+    <mj-style> .text h1 { font-size: 18px; font-weight:400; } </mj-style>
+    <mj-style> .text h2 { font-size: 16px; font-weight:400; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
     <mj-style> .article-header { color: #F9C74F; text-decoration: none; } </mj-style>
     <mj-style> .image-annotation a { color: #999999; text-decoration: none; } </mj-style>
@@ -15,7 +17,7 @@
       <mj-class name="section-box" padding-top="0px" padding-bottom="10px" background-color="#29343d" />
       <mj-class name="ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
-      <mj-class name="article-header" css-class="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px" padding-top="30px" />
+      <mj-class name="article-header" css-class="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="600" font-size="20px" padding-top="30px" />
       <mj-class name="article-text" css-class="text" font-family="Inter" font-weight="200" line-height="17px" font-size="15px" color="#FCFCFC" />
       <mj-class name="social-icon" padding="10px" icon-size="30px" />
       <mj-class name="text-small" font-size="10px" />
@@ -51,7 +53,7 @@
     <!-- Start - Section - Don't Miss -->
     <mj-section mj-class="section-box">
       <mj-column width="100%">
-        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="300px"></mj-image>
+        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="250px"></mj-image>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="ruler" />
@@ -64,7 +66,7 @@
         <mj-text mj-class="image-annotation">Source: <a href="https://www.google.com">http://www.google.com</a></mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-text mj-class="article-text">16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text mj-class="article-text"><h1>Ich bin eine H1 Überschrift</h1>16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.<h2>Ich bin eine H2 Überschrift</h2> Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen.</mj-text>
         <mj-text mj-class="article-text">
           <ul>
             <li>Foo</li>
