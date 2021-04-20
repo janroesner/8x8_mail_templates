@@ -2,17 +2,19 @@
   <mj-head>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" />
     <mj-style> .link a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
+    <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
     <mj-style> .article-header { color: #F9C74F; text-decoration: underline; } </mj-style>
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
       <mj-class name="preheader-text" css-class="link" font-size="12px" font-weight="400" />
       <mj-class name="section-box" padding-top="0px" padding-bottom="0px" background-color="#29343d" />
-      <mj-class name="section-top-ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
+      <mj-class name="ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
       <mj-class name="article-header" css-class="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px" padding-top="30px" />
       <mj-class name="article-text" font-family="Inter" font-weight="200" line-height="18px" font-size="16px" color="#FCFCFC" />
       <mj-class name="social-icon" padding="10px" icon-size="30px" />
+      <mj-class name="text-small" font-size="10px" />
     </mj-attributes>
   </mj-head>
   <mj-body mj-class="body">
@@ -46,7 +48,7 @@
         <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="400px"></mj-image>
       </mj-column>
       <mj-column width="95%">
-        <mj-divider mj-class="section-top-ruler" />
+        <mj-divider mj-class="ruler" />
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-header">#1 - The wonders of 16 bit address modes</mj-text>
@@ -86,8 +88,25 @@
     </mj-section>
     <mj-section mj-class="section-box">
       <mj-column width="100%">
-        <mj-text css-class="link" align="center" font-weight="600" color="#fcfcfc">©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
-        <mj-text align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
+        <mj-text>&nbsp;</mj-text>
+        <mj-text css-class="link-exposed">Written by <a href="https://8x8.is/contact">Bastian Schade</a> and <a href="https://8x8.is/contact">Jan Rösner</a></mj-text>
+        <mj-text css-class="link-exposed">This email was forwarded to you, but you'd like to receive it as well? Sign up <a href="https://8x8.is">here.</a></mj-text>
+      </mj-column>
+      <mj-column width="95%">
+        <mj-divider mj-class="ruler" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding-top="25px" css-class="link-exposed" font-weight="400" color="#FCFCFC" align="center"><a href="https://8x8.is/advertise">Advertise</a> // <a href="https://8x8.is/contact">Contact</a> // <a href="https://8x8.is/contact">Imprint</a></mj-text>
+        <mj-text align="center" css-class="link-exposed">Unsubscribe from this newsletter <a https://8x8.is/unsubscribe>here</a></mj-text>
+        <mj-text align="center" css-class="link-exposed">View our privacy policy <a>here</a></mj-text>
+      </mj-column>
+      <mj-column width="95%">
+        <mj-divider mj-class="ruler" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text mj-class="text-small" css-class="link" align="center" font-weight="600">Copyright ©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
+        <mj-text padding-top="0px" mj-class="text-small" align="center">8x8.is a brand of ShipBids GmbH / Amalienpark 8 / 13187 / Berlin</mj-text>
+        <mj-text padding-top="0px" mj-class="text-small" align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
       </mj-column>
     </mj-section>
     <!-- End - Footer -->
