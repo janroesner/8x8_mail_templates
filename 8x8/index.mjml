@@ -2,20 +2,25 @@
   <mj-head>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" />
     <mj-style> .link-silent a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
-    <mj-style> .link a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
+    <mj-style> .text a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
+    <mj-style> .text b { font-weight:400; } </mj-style>
+    <mj-style> .text li { margin-left: -20px; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
     <mj-style> .article-header { color: #F9C74F; text-decoration: none; } </mj-style>
+    <mj-style> .image-annotation a { color: #999999; text-decoration: none; } </mj-style>
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
       <mj-class name="preheader-text" css-class="link-silent" font-size="12px" font-weight="400" />
-      <mj-class name="section-box" padding-top="0px" padding-bottom="0px" background-color="#29343d" />
+      <mj-class name="section-box" padding-top="0px" padding-bottom="10px" background-color="#29343d" />
       <mj-class name="ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
       <mj-class name="article-header" css-class="article-header" align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px" padding-top="30px" />
-      <mj-class name="article-text" css-class="link" font-family="Inter" font-weight="200" line-height="18px" font-size="16px" color="#FCFCFC" />
+      <mj-class name="article-text" css-class="text" font-family="Inter" font-weight="200" line-height="17px" font-size="15px" color="#FCFCFC" />
       <mj-class name="social-icon" padding="10px" icon-size="30px" />
       <mj-class name="text-small" font-size="10px" />
+      <mj-class name="image-annotation" css-class="image-annotation" font-size="12px" padding-left="25px" align="left" padding="0px" padding-bottom="20px" color="#999999" />
+      <mj-class name="mj-image" padding="10px" padding-bottom="0px" />
     </mj-attributes>
   </mj-head>
   <mj-body mj-class="body">
@@ -46,7 +51,7 @@
     <!-- Start - Section - Don't Miss -->
     <mj-section mj-class="section-box">
       <mj-column width="100%">
-        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="400px"></mj-image>
+        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="300px"></mj-image>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="ruler" />
@@ -55,16 +60,24 @@
         <mj-text mj-class="article-header">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+        <mj-image mj-class="mj-image" src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+        <mj-text mj-class="image-annotation">Source: <a href="https://www.google.com">http://www.google.com</a></mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-text mj-class="article-text">16 Bit addresses lorem Ipsum is <a>simply</a> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text mj-class="article-text">16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text mj-class="article-text">
+          <ul>
+            <li>Foo</li>
+            <li>Bar</li>
+            <li>Baz</li>
+          </ul>
+        </mj-text>
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-header">#2 - Retro Recipe's Chicken Lips Computer</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
+        <mj-image mj-class="mj-image" src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
@@ -105,7 +118,7 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="text-small" css-class="link-silent" align="center" font-weight="600">Copyright ©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
-        <mj-text padding-top="0px" mj-class="text-small" align="center">8x8.is a brand of ShipBids GmbH / Amalienpark 8 / 13187 / Berlin</mj-text>
+        <mj-text css-class="link-silent" padding-top="0px" mj-class="text-small" align="center">8x8.is a brand of ShipBids GmbH / Amalienpark 8 / 13187 / Berlin</mj-text>
         <mj-text padding-top="0px" mj-class="text-small" align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
       </mj-column>
     </mj-section>
