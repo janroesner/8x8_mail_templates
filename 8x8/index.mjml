@@ -1,6 +1,11 @@
 <mjml>
   <mj-head>
     <mj-style> .link a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" />
+    <mj-attributes>
+      <mj-class name="default_text" font-family="Inter" font-weight="200" line-height="18px" font-size="16px" color="#FCFCFC" />
+      <mj-all font-family="Inter" />
+    </mj-attributes>
   </mj-head>
   <mj-body background-color="#394956">
     <mj-section padding-bottom="0px" padding-top="0px">
@@ -35,13 +40,13 @@
       </mj-column>
       
       <mj-column width="100%">
-        <mj-text align="left" font-weight="400" color="#F9C74F" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
+        <mj-text align="left" color="#F9C74F" font-family="Inter" font-weight="400" font-size="16px">#1 - The wonders of 16 bit address modes</mj-text>
       </mj-column>
       <mj-column width="100%">
         <mj-image src="https://cloud.githubusercontent.com/assets/6558790/12450760/ee034178-bf85-11e5-9dda-98d0c8f9f8d6.png"></mj-image>
       </mj-column>
       <mj-column width="100%">
-        <mj-text font-size="16px" font-weight="200" color="#fcfcfc">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
+        <mj-text mj-class="default_text">16 Bit addresses lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
         <mj-divider padding-top="30px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#29343d"></mj-divider>
       </mj-column>
       
