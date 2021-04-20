@@ -120,7 +120,7 @@
       <mj-column width="100%">
         <mj-text>&nbsp;</mj-text>
         <mj-text css-class="link-exposed">Written by <a href="https://8x8.is/contact">Bastian Schade</a> and <a href="https://8x8.is/contact">Jan Rösner</a></mj-text>
-        <mj-text css-class="link-exposed">This email was forwarded to you, but you'd like to receive it as well? Sign up <a href="https://8x8.is">here</a>.</mj-text>
+        <mj-text css-class="link-exposed">This email was forwarded to you? You can sign up <a href="https://8x8.is">here</a> to receive it directly.</mj-text>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="ruler" />
