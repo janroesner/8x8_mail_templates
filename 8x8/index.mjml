@@ -5,7 +5,7 @@
     <mj-style> .text a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
     <mj-style> .text b { font-weight:400; } </mj-style>
     <mj-style> .text li { margin-left: -20px; } </mj-style>
-    <mj-style> .text h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600} </mj-style>
+    <mj-style> .text h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600; margin-bottom:0px;} </mj-style>
     <mj-style> .text h4 { font-size: 18px; font-weight:400; } </mj-style>
     <mj-style> .text h5 { font-size: 16px; font-weight:400; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
