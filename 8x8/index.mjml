@@ -10,7 +10,7 @@
     <mj-style> h4 { font-size: 18px; font-weight:400; } </mj-style>
     <mj-style> h5 { font-size: 16px; font-weight:400; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
-    <mj-style> .image-annotation a { color: #999999; text-decoration: none; } </mj-style>
+    <mj-style> .image-annotation a { color: #999999 !important; text-decoration: none; } </mj-style>
     <mj-style> @media (min-width:480px) { .header .logo-mobile { display:none; } .header .headline h1 { text-align:left !important; } .header .sub span { display:block;text-align:left !important; } } </mj-style>
     <mj-style> @media (max-width:480px) { .header .logo { display:none } .header .headline { padding-top:0px !important; } .header .headline h1 { font-size:32px } .header .sub span { font-size:13px } } </mj-style>
     <mj-attributes>
