@@ -2,29 +2,17 @@
   <mj-head>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" />
     <mj-style> .link-silent a { color: #fcfcfc !important; text-decoration: none; } </mj-style>
-    <mj-style> .text a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
-    <mj-style> .text b { font-weight:400; } </mj-style>
-    <mj-style> .text li { margin-left: -20px; } </mj-style>
+    <mj-style> a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
+    <mj-style> b { font-weight:400; } </mj-style>
+    <mj-style> li { margin-left: -20px; } </mj-style>
     <mj-style> h1 { color: #FCFCFC; text-decoration: none; font-size:40px; font-weight:800; margin:0px; padding:0px;} </mj-style>
-    <mj-style> .text h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600; margin-bottom:0px;} </mj-style>
-    <mj-style> .text h4 { font-size: 18px; font-weight:400; } </mj-style>
-    <mj-style> .text h5 { font-size: 16px; font-weight:400; } </mj-style>
+    <mj-style> h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600; margin-bottom:0px;} </mj-style>
+    <mj-style> h4 { font-size: 18px; font-weight:400; } </mj-style>
+    <mj-style> h5 { font-size: 16px; font-weight:400; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
     <mj-style> .image-annotation a { color: #999999; text-decoration: none; } </mj-style>
-    <mj-style> @media (min-width:480px) { 
-                 .header.logo-mobile { display:none; }
-                 .header.headline h1 { text-align:left !important; }
-                 .header.sub span { display:block;text-align:left !important; }
-               }
-    </mj-style>
-    <mj-style> @media (max-width:480px) { 
-                 .header.logo { display:none }
-                 .header.headline { padding-top:0px !important; }
-                 .header.headline h1 { font-size:32px }
-                 .header.sub span { font-size:13px }
-               } 
-    </mj-style>
-
+    <mj-style> @media (min-width:480px) { .header .logo-mobile { display:none; } .header .headline h1 { text-align:left !important; } .header .sub span { display:block;text-align:left !important; } } </mj-style>
+    <mj-style> @media (max-width:480px) { .header .logo { display:none } .header .headline { padding-top:0px !important; } .header .headline h1 { font-size:32px } .header .sub span { font-size:13px } } </mj-style>
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
@@ -32,13 +20,14 @@
       <mj-class name="section-box" padding-top="0px" padding-bottom="10px" background-color="#29343d" />
       <mj-class name="ruler" padding-top="20px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-color="#394956" border-width="1px" />
       <mj-class name="section-divider" padding-top="0px" padding-bottom="20px" />
-      <mj-class name="article-header" css-class="text" align="left" padding-top="30px" />
-      <mj-class name="article-text" css-class="text" font-family="Inter" font-weight="200" line-height="17px" font-size="15px" color="#FCFCFC" padding-bottom="0px" />
+      <mj-class name="article-header" align="left" padding-top="30px" />
+      <mj-class name="article-text" font-family="Inter" font-weight="200" line-height="17px" font-size="15px" color="#FCFCFC" padding-bottom="0px" />
       <mj-class name="social-share" padding="0px" align="left" padding-left="20px" />
       <mj-class name="social-share-icon" padding="5px" icon-size="25px" />
       <mj-class name="social-link" padding="5px" icon-size="35px" />
       <mj-class name="text-small" font-size="10px" />
       <mj-class name="image-annotation" css-class="image-annotation" font-size="12px" padding-left="25px" align="left" padding="0px" padding-bottom="20px" color="#999999" />
+      <mj-class name="header" css-class="header" />
       <mj-class name="mj-image" padding="10px" padding-bottom="0px" />
     </mj-attributes>
   </mj-head>
@@ -60,16 +49,16 @@
     </mj-section>
     <!-- End - PreHeader -->
     <!-- Start - Header -->
-    <mj-section mj-class="section-box">
+    <mj-section mj-class="section-box header">
       <mj-column width="36%">
-        <mj-image css-class="header logo" align="right" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
-        <mj-image css-class="header logo-mobile" align="center" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
+        <mj-image css-class="logo" align="right" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
+        <mj-image css-class="logo-mobile" align="center" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
       </mj-column>
       <mj-column width="64%">
-        <mj-text css-class="header headline" align="center" padding="0px" padding-top="26px">
+        <mj-text css-class="headline" align="center" padding="0px" padding-top="26px">
           <h1>8-Bit News</h1>
         </mj-text>
-        <mj-text css-class="header sub" padding="0px" font-size="16px" align="center"><span>Just the signal, not the noise</span></mj-text>
+        <mj-text mj-class="text" css-class="text sub" padding="0px" font-size="16px" align="center"><span>Just the <a href="#">signal</a>, not the noise</span></mj-text>
       </mj-column>
     </mj-section>
     <!-- End - Header -->
