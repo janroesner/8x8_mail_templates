@@ -58,7 +58,7 @@
         <mj-text css-class="headline" align="center" padding="0px" padding-top="26px">
           <h1>8-Bit News</h1>
         </mj-text>
-        <mj-text mj-class="text" css-class="text sub" padding="0px" font-size="16px" align="center"><span>Just the <a href="#">signal</a>, not the noise</span></mj-text>
+        <mj-text mj-class="text" css-class="text sub" padding="0px" font-size="16px" align="center"><span>Just the <a>signal</a>, not the noise</span></mj-text>
       </mj-column>
     </mj-section>
     <!-- End - Header -->
@@ -113,14 +113,12 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
-        <mj-column width="100%">
-          <mj-text padding="0px" padding-top="20px" padding-left="20px">Share the signal:</mj-text>
-          <mj-social padding="15px" padding-top="0px" padding-bottom="0px" align="left">
-            <mj-social-element mj-class="social-share-icon" name="twitter" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/twitter.png" href="https://8bitnews.io/0x/4711" />
-            <mj-social-element mj-class="social-share-icon" name="facebook" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/facebook.png" href="https://8bitnews.io/0x/4711" />
-            <mj-social-element mj-class="social-share-icon" name="tumblr" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/tumblr.png" href="https://8bitnews.io/0x/4711" />
-          </mj-social>
-        </mj-column>
+        <mj-text padding="0px" padding-top="20px" padding-left="20px">Share the signal:</mj-text>
+        <mj-social padding="15px" padding-top="0px" padding-bottom="0px" align="left">
+          <mj-social-element mj-class="social-share-icon" name="twitter" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/twitter.png" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="facebook" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/facebook.png" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="tumblr" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/tumblr.png" href="https://8bitnews.io/0x/4711" />
+        </mj-social>
       </mj-column>
     </mj-section>
     <!-- End - Section - Don't Miss -->
