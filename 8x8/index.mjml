@@ -77,7 +77,7 @@
           </ul>
         </mj-text>
         <mj-social mj-class="social-share">
-          <mj-social-element mj-class="social-share-icon" name="twitter" href="https://8bitnews.io/0x/4711" />
+          <mj-social-element mj-class="social-share-icon" name="twitter" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/twitter.png" href="https://8bitnews.io/0x/4711" />
           <mj-social-element mj-class="social-share-icon" name="facebook" href="https://8bitnews.io/0x/4711" />
           <mj-social-element mj-class="social-share-icon" name="tumblr" href="https://8bitnews.io/0x/4711" />
         </mj-social>
