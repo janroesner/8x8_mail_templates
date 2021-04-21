@@ -5,11 +5,26 @@
     <mj-style> .text a { color: #FCFCFC !important; text-decoration: underline; text-decoration-color: #F3722C; } </mj-style>
     <mj-style> .text b { font-weight:400; } </mj-style>
     <mj-style> .text li { margin-left: -20px; } </mj-style>
+    <mj-style> h1 { color: #FCFCFC; text-decoration: none; font-size:40px; font-weight:800; margin:0px; padding:0px;} </mj-style>
     <mj-style> .text h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600; margin-bottom:0px;} </mj-style>
     <mj-style> .text h4 { font-size: 18px; font-weight:400; } </mj-style>
     <mj-style> .text h5 { font-size: 16px; font-weight:400; } </mj-style>
     <mj-style> .link-exposed a { color: #577590 !important; text-decoration: underline; } </mj-style>
     <mj-style> .image-annotation a { color: #999999; text-decoration: none; } </mj-style>
+    <mj-style> @media (min-width:480px) { 
+                 .header.logo-mobile { display:none; }
+                 .header.headline h1 { text-align:left !important; }
+                 .header.sub span { display:block;text-align:left !important; }
+               }
+    </mj-style>
+    <mj-style> @media (max-width:480px) { 
+                 .header.logo { display:none }
+                 .header.headline { padding-top:0px !important; }
+                 .header.headline h1 { font-size:32px }
+                 .header.sub span { font-size:13px }
+               } 
+    </mj-style>
+
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
@@ -46,8 +61,15 @@
     <!-- End - PreHeader -->
     <!-- Start - Header -->
     <mj-section mj-class="section-box">
-      <mj-column width="100%">
-        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
+      <mj-column width="36%">
+        <mj-image css-class="header logo" align="right" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
+        <mj-image css-class="header logo-mobile" align="center" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
+      </mj-column>
+      <mj-column width="64%">
+        <mj-text css-class="header headline" align="center" padding="0px" padding-top="26px">
+          <h1>8-Bit News</h1>
+        </mj-text>
+        <mj-text css-class="header sub" padding="0px" font-size="16px" align="center"><span>Just the signal, not the noise</span></mj-text>
       </mj-column>
     </mj-section>
     <!-- End - Header -->
@@ -102,14 +124,14 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mj-text>
-      <mj-column width="100%">
-        <mj-text padding="0px"  padding-top="20px" padding-left="20px">Share the signal:</mj-text>
-        <mj-social padding="15px" padding-top="0px" padding-bottom="0px" align="left">
-          <mj-social-element mj-class="social-share-icon" name="twitter" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/twitter.png" href="https://8bitnews.io/0x/4711" />
-          <mj-social-element mj-class="social-share-icon" name="facebook" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/facebook.png" href="https://8bitnews.io/0x/4711" />
-          <mj-social-element mj-class="social-share-icon" name="tumblr" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/tumblr.png" href="https://8bitnews.io/0x/4711" />
-        </mj-social>
-      </mj-column>
+        <mj-column width="100%">
+          <mj-text padding="0px" padding-top="20px" padding-left="20px">Share the signal:</mj-text>
+          <mj-social padding="15px" padding-top="0px" padding-bottom="0px" align="left">
+            <mj-social-element mj-class="social-share-icon" name="twitter" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/twitter.png" href="https://8bitnews.io/0x/4711" />
+            <mj-social-element mj-class="social-share-icon" name="facebook" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/facebook.png" href="https://8bitnews.io/0x/4711" />
+            <mj-social-element mj-class="social-share-icon" name="tumblr" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/tumblr.png" href="https://8bitnews.io/0x/4711" />
+          </mj-social>
+        </mj-column>
       </mj-column>
     </mj-section>
     <!-- End - Section - Don't Miss -->
