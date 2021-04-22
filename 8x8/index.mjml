@@ -6,6 +6,7 @@
     <mj-style> b { font-weight:400; } </mj-style>
     <mj-style> li { margin-left: -20px; } </mj-style>
     <mj-style> h1 { color: #FCFCFC; text-decoration: none; font-size:40px; font-weight:800; margin:0px; padding:0px;} </mj-style>
+    <mj-style> h2 { color: #FCFCFC; text-decoration: none; font-size:26px; font-weight:800; margin:0px; padding:0px;} </mj-style>
     <mj-style> h3 { color: #F9C74F; text-decoration: none; font-size:20px; font-weight:600; margin-bottom:0px;} </mj-style>
     <mj-style> h4 { font-size: 18px; font-weight:400; } </mj-style>
     <mj-style> h5 { font-size: 16px; font-weight:400; } </mj-style>
@@ -13,6 +14,8 @@
     <mj-style> .image-annotation a { color: #999999 !important; text-decoration: none; } </mj-style>
     <mj-style> @media (min-width:480px) { .header .logo-mobile { display:none; } .header .headline h1 { text-align:left !important; } .header .sub span { display:block;text-align:left !important; } } </mj-style>
     <mj-style> @media (max-width:480px) { .header .logo { display:none } .header .headline { padding-top:0px !important; } .header .headline h1 { font-size:32px } .header .sub span { font-size:13px } } </mj-style>
+    <mj-style> .foo { display:inline-block; }</mj-style>
+    <mj-style> .bar { display:inline; }</mj-style>
     <mj-attributes>
       <mj-all font-family="Inter" color="#FCFCFC" />
       <mj-class name="body" background-color="#394956" />
@@ -66,7 +69,23 @@
     <!-- Start - Section - Don't Miss -->
     <mj-section mj-class="section-box">
       <mj-column width="100%">
-        <mj-image src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="250px"></mj-image>
+        <mj-table width="100%" align="left" line-height="16px" cellpadding="5px" padding-top="20px" padding-bottom="0px">
+          <tbody>
+            <tr>
+              <td rowspan="2" width="60px">
+                <img padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/sectionicon_news.png" width="50px" />
+              </td>
+              <td>
+                <mj-text><h2>Don't miss</h2></mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mj-text>What happened this week in 8-bit land</mj-text>
+              </td>
+            </tr>
+          </tbody>
+        </mj-table>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="ruler" />
