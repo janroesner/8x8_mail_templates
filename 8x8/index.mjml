@@ -45,7 +45,7 @@
         <mj-column width="62%">
           <mj-text mj-class="preheader-text" align="right">
             <mj-group>
-              <a href="https://8x8.is/0x/beef">View Online</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://8x8.is">SignUp</a>
+              <a href="https://8bitnews.io/0x/beef">View Online</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://8bitnews.io">SignUp</a>
             </mj-group>
           </mj-text>
         </mj-column>
@@ -104,7 +104,7 @@
       </mj-column>
       <mj-column width="100%">
         <mj-text mj-class="article-text">
-          <h4>Ich bin eine H4 Überschrift</h4>16 Bit addresses lorem Ipsum is <a href="https://8x8.is">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.<h5>Ich bin eine H5 Überschrift</h5> Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen.
+          <h4>Ich bin eine H4 Überschrift</h4>16 Bit addresses lorem Ipsum is <a href="https://8bitnews.io">simply</a> dummy <b>text</b> of the <i>printing</i> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has establishing software like Aldus PageMaker including versions of Lorem Ipsum.<h5>Ich bin eine H5 Überschrift</h5> Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen. Und danach kann ja auch noch ein ganzer langer Absatz kommen.
         </mj-text>
         <mj-text mj-class="article-text">
           <ul>
@@ -162,22 +162,22 @@
     <mj-section mj-class="section-box">
       <mj-column width="100%">
         <mj-text>&nbsp;</mj-text>
-        <mj-text>Written by <a href="https://8x8.is/contact">Bastian Schade</a> and <a href="https://8x8.is/contact">Jan Rösner</a></mj-text>
-        <mj-text>This email was forwarded to you? You can sign up <a href="https://8x8.is">here</a> to receive it directly.</mj-text>
+        <mj-text>Written by <a href="https://8bitnews.io/contact">Bastian Schade</a> and <a href="https://8bitnews.io/contact">Jan Rösner</a></mj-text>
+        <mj-text>This email was forwarded to you? You can sign up <a href="https://8bitnews.io">here</a> to receive it directly.</mj-text>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="section-ruler" />
       </mj-column>
       <mj-column width="100%">
-        <mj-text padding-top="25px" font-weight="400" color="#FCFCFC" align="center"><a href="https://8x8.is/advertise">Advertise</a> // <a href="https://8x8.is/contact">Contact</a> // <a href="https://8x8.is/contact">Imprint</a></mj-text>
-        <mj-text align="center">Unsubscribe from this newsletter <a https://8x8.is/unsubscribe>here </a>. </mj-text> <mj-text align="center">View our privacy policy <a>here</a>.</mj-text>
+        <mj-text padding-top="25px" font-weight="400" color="#FCFCFC" align="center"><a href="https://8bitnews.io/advertise">Advertise</a> // <a href="https://8bitnews.io/contact">Contact</a> // <a href="https://8x8.is/contact">Imprint</a></mj-text>
+        <mj-text align="center">Unsubscribe from this newsletter <a href="https://8bitnews.io/unsubscribe">here </a>. </mj-text> <mj-text align="center">View our privacy policy <a href="8bitnews.io/contact">here</a>.</mj-text>
       </mj-column>
       <mj-column width="95%">
         <mj-divider mj-class="section-ruler" />
       </mj-column>
       <mj-column width="100%">
-        <mj-text mj-class="text-small" css-class="link-silent" align="center" font-weight="600">Copyright ©2021 - <a href="https://8x8.is">8x8.is</a> Team</mj-text>
-        <mj-text css-class="link-silent" padding-top="0px" mj-class="text-small" align="center">8x8.is a brand of ShipBids GmbH / Amalienpark 8 / 13187 / Berlin</mj-text>
+        <mj-text mj-class="text-small" css-class="link-silent" align="center" font-weight="600">Copyright ©2021 - <a href="https://8x8.is">8bitnews.io</a> Team</mj-text>
+        <mj-text css-class="link-silent" padding-top="0px" mj-class="text-small" align="center">8bitnews is a brand of ShipBids GmbH / Amalienpark 8 / 13187 / Berlin</mj-text>
         <mj-text padding-top="0px" mj-class="text-small" align="center" color="#fcfcfc">Made with 🍉 in Berlin</mj-text>
       </mj-column>
     </mj-section>
