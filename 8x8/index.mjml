@@ -55,7 +55,7 @@
         <mj-image css-class="logo-mobile" align="center" padding="0px" src="https://github.com/janroesner/8x8_mail_templates/raw/master/8x8/img/8x8_logo.png" width="100px"></mj-image>
       </mj-column>
       <mj-column width="64%">
-        <mj-text css-class="headline" align="center" padding="0px" padding-top="26px">
+        <mj-text css-class="headline" align="center" padding="0px" padding-top="22px">
           <h1>8-Bit News</h1>
         </mj-text>
         <mj-text mj-class="text" css-class="text sub" padding="0px" font-size="16px" align="center"><span>Just the <a>signal</a>, not the noise</span></mj-text>
